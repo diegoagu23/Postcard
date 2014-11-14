@@ -29,6 +29,8 @@ class ViewController: UIViewController {
     @IBAction func sendMessagePressed(sender: AnyObject) {
         
         //adding a comment to test commits
+        //adding second comment as a test
+    
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
